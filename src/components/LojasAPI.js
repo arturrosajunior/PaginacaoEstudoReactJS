@@ -24,13 +24,6 @@ function LojasAPI(props){
 
   const [stores, setStores] = useState(lojasArray);
 
-//   React.useMemo( async () => {
-//     const {data} = await axios.post('http://191.252.193.21/api/', 'fn=getstores')
-//     console.log(data.stores)
-//     //setStores(data.stores)
-//   }, [])
-  
-
   return (
    <>
     <ul>
