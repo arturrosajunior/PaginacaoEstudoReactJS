@@ -21,13 +21,13 @@ const lojasArray = [
 
 function LojasAPI(props){
 
-  const [stores, setStores] = useState(lojasArray);
+  //const [stores, setStores] = useState(lojasArray);
 
   return (
    <>
     <ul>
       {
-        stores.map((store, i) => <li key={i.toString()}><small>{store.name}</small></li>)
+        lojasArray.map((store, i) => <li key={i.toString()}><small>{store.name}</small></li>)
       }
     </ul>
    </>
