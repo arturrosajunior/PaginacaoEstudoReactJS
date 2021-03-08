@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 
 const lojasArray = [
     {id: "136", name: "JSL - FORD AVANTE-SÃO MIGUEL (SP)", telefone: ""},
